@@ -134,9 +134,10 @@ covid19-r-analysis/
 
 \## 📈 Dashboard Preview
 
+Advanced COVID-19 Dashboard
+🔗 Project Repository
 
+GitHub Repository:
+https://github.com/Mohamed-Abdirashid-tech/covid19-data-analysis-r
 
-\*(<img width="6000" height="4200" alt="advanced\_covid\_dashboard" src="https://github.com/user-attachments/assets/392da184-5d4c-4a3e-8d91-ea5f33bb814f" />
-
-)\*
 
