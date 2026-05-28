@@ -1,142 +1,101 @@
-\# 🦠 COVID-19 R Analytics Dashboard
+# 🦠 COVID-19 data analysis project using R
 
+A professional data analytics project built using **R** and **RStudio** to analyze global COVID-19 trends through data cleaning, exploratory data analysis, and dashboard visualizations.
 
+---
 
-A professional data analytics project built in \*\*R (RStudio)\*\* that explores global COVID-19 trends using real-world data.  
+# 📊 Project Overview
 
-This project includes data cleaning, exploratory data analysis, and interactive visualizations to provide business-level insights.
+This project explores real-world COVID-19 data to uncover insights about:
 
+* Confirmed cases worldwide
+* Death and recovery trends
+* Country-level comparisons
+* Global COVID-19 growth patterns
+* Recovery rate analysis
 
+The project demonstrates a complete data analytics workflow from raw data to professional dashboard visualizations.
 
-\---
+---
 
+# 🛠 Tools & Technologies
 
+* R Programming
+* RStudio
+* tidyverse
+* ggplot2
+* dplyr
+* lubridate
+* patchwork
+* scales
 
-\## 📊 Project Overview
+---
 
+# 📁 Project Structure
 
-
-This project analyzes global COVID-19 data to answer key questions such as:
-
-
-
-\- Which countries were most affected?
-
-\- What are the global trends over time?
-
-\- How do deaths, recoveries, and confirmed cases compare?
-
-\- What is the recovery rate by country?
-
-
-
-\---
-
-
-
-\## 🧰 Tools \& Technologies
-
-
-
-\- R Programming
-
-\- RStudio
-
-\- tidyverse
-
-\- ggplot2
-
-\- dplyr
-
-\- lubridate
-
-\- patchwork
-
-\- scales
-
-
-
-\---
-
-
-
-\## 📁 Project Structure
-
+```text
 covid19-r-analysis/
-
 │
-
-├── data/ # Raw dataset
-
-├── scripts/ # R scripts (cleaning, analysis, visualization)
-
-├── outputs/ # Cleaned datasets
-
-├── plots/ # Generated charts \& dashboards
-
-├── reports/ # Reports (optional)
-
+├── data/                  # Raw dataset
+├── scripts/               # R scripts
+├── outputs/               # Cleaned datasets
+├── plots/                 # Dashboard charts & visualizations
+├── reports/               # Reports
 └── README.md
+```
 
+---
 
+# 📈 Dashboard Features
 
+✔ Professional multi-chart dashboard
+✔ KPI summary cards
+✔ Top affected countries analysis
+✔ Recovery rate analysis
+✔ Global trend visualizations
+✔ Readable charts with labels
 
+---
 
+# 📊 Example Visualizations
 
+* Top 10 Confirmed Cases
+* Top 10 Death Cases
+* Recovery Rate Analysis
+* Global Trend Charts
+* Monthly COVID Trends
 
+---
 
+# 🚀 How to Run
 
-\---
+1. Clone this repository
+2. Open the `.Rproj` file in RStudio
+3. Run scripts in order from the `scripts/` folder
 
+---
 
+# 👨‍💻 Author
 
-\## 📊 Key Features
+**Mohamed Cabdirashid Maxamuud**
 
+* Data Analytics Enthusiast
+* R Programmer
+* Web Development Learner
+* Cybersecurity Enthusiast
 
+---
 
-\### ✔ Data Cleaning
+# 📌 Future Improvements
 
-\- Handled missing values
+* Interactive Shiny Dashboard
+* Dark Theme Dashboard
+* Animated Charts
+* World Map Visualization
+* Real-Time Data Integration
 
-\- Standardized date formats
+---
 
-\- Removed duplicates
+# ⭐ Support
 
-\- Created structured dataset
-
-
-
-\### ✔ Exploratory Data Analysis
-
-\- Top affected countries
-
-\- Death and recovery analysis
-
-\- Global trend analysis
-
-
-
-\### ✔ Dashboard Visualizations
-
-\- KPI cards (Confirmed, Deaths, Recovered)
-
-\- Bar charts with values
-
-\- Time series trends
-
-\- Recovery rate comparison
-
-
-
-\---
-
-
-
-\## 📈 Dashboard Preview
-
-
-
-\*(<img width="6000" height="4200" alt="advanced\_covid\_dashboard" src="https://github.com/user-attachments/assets/392da184-5d4c-4a3e-8d91-ea5f33bb814f" />
-
-)\*
-
+If you found this project useful, give it a star ⭐ on GitHub.

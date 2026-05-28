@@ -1,0 +1,24 @@
+{
+    "id": "82F7B037",
+    "path": "C:/Users/cxc/OneDrive/Desktop/covid19-r-analyis/data/covid19_timeseries.csv",
+    "project_path": "data/covid19_timeseries.csv",
+    "type": "text",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1779975789630.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1779952742,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1779952742,
+    "read_only": false,
+    "read_only_alternatives": []
+}
