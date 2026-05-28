@@ -1,4 +1,4 @@
-# 🦠 COVID-19 data analysis project using R
+# 🦠 COVID-19 Data Analysis Project Using R
 
 A professional data analytics project built using **R** and **RStudio** to analyze global COVID-19 trends through data cleaning, exploratory data analysis, and dashboard visualizations.
 
@@ -67,6 +67,24 @@ covid19-r-analysis/
 
 ---
 
+# 📈 Dashboard Preview
+
+### Professional COVID Dashboard
+
+<p align="center">
+  <img src="plots/professional_covid_dashboard.png" width="1000">
+</p>
+
+---
+
+### Advanced COVID Analytics Dashboard
+
+<p align="center">
+  <img src="plots/advanced_covid_dashboard.png" width="1000">
+</p>
+
+---
+
 # 🚀 How to Run
 
 1. Clone this repository
@@ -79,10 +97,10 @@ covid19-r-analysis/
 
 **Mohamed Cabdirashid Maxamuud**
 
-* Data Analytics Enthusiast
-* R Programmer
-* Web Development Learner
-* Cybersecurity Enthusiast
+* Data Analyst
+* Business Intelligence Analyst
+* AI Automation Developer
+* AI, Blockchain & Web3 Enthusiast
 
 ---
 
@@ -99,3 +117,6 @@ covid19-r-analysis/
 # ⭐ Support
 
 If you found this project useful, give it a star ⭐ on GitHub.
+
+🔗 Repository:
+https://github.com/Mohamed-Abdirashid-tech/covid19-data-analysis-r
