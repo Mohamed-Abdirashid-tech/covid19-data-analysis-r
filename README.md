@@ -69,29 +69,17 @@ covid19-r-analysis/
 
 # 📈 Dashboard Preview
 
-### Professional COVID Dashboard
+## 1. Professional COVID Dashboard 
 
-<p align="center">
-  <img src="plots/professional_covid_dashboard.png" width="1000">
-</p>
+[![Professional Dashboard](plots/professional_covid_dashboard.png)](plots/professional_covid_dashboard.png)
 
----
+### 2. Advanced COVID Analytics Dashboard
 
-### Advanced COVID Analytics Dashboard
 
-<p align="center">
-  <img src="plots/advanced_covid_dashboard.png" width="1000">
-</p>
+[![Advanced Dashboard](plots/advanced_covid_dashboard.png)](plots/advanced_covid_dashboard.png)
 
 ---
 
-# 🚀 How to Run
-
-1. Clone this repository
-2. Open the `.Rproj` file in RStudio
-3. Run scripts in order from the `scripts/` folder
-
----
 
 # 👨‍💻 Author
 
@@ -101,16 +89,6 @@ covid19-r-analysis/
 * Business Intelligence Analyst
 * AI Automation Developer
 * AI, Blockchain & Web3 Enthusiast
-
----
-
-# 📌 Future Improvements
-
-* Interactive Shiny Dashboard
-* Dark Theme Dashboard
-* Animated Charts
-* World Map Visualization
-* Real-Time Data Integration
 
 ---
 
