@@ -1,0 +1,125 @@
+# =========================================
+# COVID-19 DASHBOARD VISUALIZATIONS
+# =========================================
+
+# Load packages
+library(tidyverse)
+library(patchwork)
+library(scales)
+
+# Load data
+covid_data <- read_csv("outputs/final_covid_cleaned_data.csv")
+
+# =========================================
+# TOP 10 CONFIRMED CASES
+# =========================================
+
+top_confirmed <- covid_data %>%
+  group_by(country_region) %>%
+  summarise(total_confirmed = sum(confirmed_cases, na.rm = TRUE)) %>%
+  arrange(desc(total_confirmed)) %>%
+  slice_head(n = 10)
+
+p1 <- ggplot(top_confirmed,
+             aes(x = reorder(country_region, total_confirmed),
+                 y = total_confirmed)) +
+
+  geom_col() +
+
+  geom_text(aes(label = comma(total_confirmed)),
+            hjust = -0.1,
+            size = 3) +
+
+  coord_flip() +
+
+  labs(
+    title = "Top 10 Confirmed Cases",
+    x = "",
+    y = "Cases"
+  ) +
+
+  theme_minimal()
+
+# =========================================
+# TOP 10 DEATH CASES
+# =========================================
+
+top_deaths <- covid_data %>%
+  group_by(country_region) %>%
+  summarise(total_deaths = sum(death_cases, na.rm = TRUE)) %>%
+  arrange(desc(total_deaths)) %>%
+  slice_head(n = 10)
+
+p2 <- ggplot(top_deaths,
+             aes(x = reorder(country_region, total_deaths),
+                 y = total_deaths)) +
+
+  geom_col() +
+
+  geom_text(aes(label = comma(total_deaths)),
+            hjust = -0.1,
+            size = 3) +
+
+  coord_flip() +
+
+  labs(
+    title = "Top 10 Death Cases",
+    x = "",
+    y = "Deaths"
+  ) +
+
+  theme_minimal()
+
+# =========================================
+# TOP 10 RECOVERED CASES
+# =========================================
+
+top_recovered <- covid_data %>%
+  group_by(country_region) %>%
+  summarise(total_recovered = sum(recovered_cases, na.rm = TRUE)) %>%
+  arrange(desc(total_recovered)) %>%
+  slice_head(n = 10)
+
+p3 <- ggplot(top_recovered,
+             aes(x = reorder(country_region, total_recovered),
+                 y = total_recovered)) +
+
+  geom_col() +
+
+  geom_text(aes(label = comma(total_recovered)),
+            hjust = -0.1,
+            size = 3) +
+
+  coord_flip() +
+
+  labs(
+    title = "Top 10 Recovered Cases",
+    x = "",
+    y = "Recovered"
+  ) +
+
+  theme_minimal()
+
+# =========================================
+# COMBINE CHARTS
+# =========================================
+
+dashboard <- (p1 | p2) / p3
+
+# Display dashboard
+dashboard
+
+# =========================================
+# SAVE DASHBOARD
+# =========================================
+
+ggsave(
+  "plots/covid_dashboard.png",
+  dashboard,
+  width = 16,
+  height = 12
+)
+
+
+
+
