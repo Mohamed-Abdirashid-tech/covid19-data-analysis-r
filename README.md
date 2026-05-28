@@ -1,4 +1,4 @@
-\# 🦠 COVID-19 R Analytics Dashboard
+\# 🦠 COVID-19 data analysis project using r
 
 
 
